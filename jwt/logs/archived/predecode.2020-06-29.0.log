@@ -1,0 +1,12 @@
+2020-06-29 02:15:06,241 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-17 housekeeper] HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=2h30m58s302ms).
+2020-06-29 07:00:03,886 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-17 housekeeper] HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=4h44m27s249ms).
+2020-06-29 08:45:09,096 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-17 housekeeper] HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=1h45m5s230ms).
+2020-06-29 10:00:06,751 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-17 housekeeper] HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=1h14m57s655ms).
+2020-06-29 11:15:05,013 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-17 housekeeper] HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=1h14m58s262ms).
+2020-06-29 12:15:08,965 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-17 housekeeper] HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=1h3s951ms).
+2020-06-29 12:26:59,778 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-17 housekeeper] HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=11m50s814ms).
+2020-06-29 12:36:07,080 INFO org.mongodb.driver.connection [SpringContextShutdownHook] Closed connection [connectionId{localValue:19, serverValue:45}] to localhost:27017 because the pool has been closed.
+2020-06-29 12:36:07,083 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-29 12:36:07,103 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-29 12:36:07,104 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-17 - Shutdown initiated...
+2020-06-29 12:36:07,106 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-17 - Shutdown completed.

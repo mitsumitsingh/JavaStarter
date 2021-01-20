@@ -1,0 +1,1162 @@
+2021-01-20 11:32:35,845 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 15536 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 11:32:35,856 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 11:32:35,975 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-20 11:32:35,976 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-20 11:32:37,482 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 11:32:37,627 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 134ms. Found 3 MongoDB repository interfaces.
+2021-01-20 11:32:38,216 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3dd9f734' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 11:32:38,223 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 11:32:39,064 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 11:32:39,078 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 11:32:39,079 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 11:32:39,079 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 11:32:39,207 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 11:32:39,209 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3232 ms
+2021-01-20 11:32:39,646 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 11:32:39,780 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6007c77f580a162708697ebe', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:76}] to localhost:27017
+2021-01-20 11:32:39,790 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6007c77f580a162708697ebe', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5917300}
+2021-01-20 11:32:40,498 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 11:32:41,232 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 11:32:41,642 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d94ba12, org.springframework.security.web.context.SecurityContextPersistenceFilter@7943986e, org.springframework.security.web.header.HeaderWriterFilter@7c0794fb, org.springframework.web.filter.CorsFilter@6f59ac9e, org.springframework.security.web.authentication.logout.LogoutFilter@5689f420, com.predecode.jwt.Auth.AuthTokenFilter@35f37931, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d43bbcb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d6c11f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4640d76c, org.springframework.security.web.session.SessionManagementFilter@5ebaf05, org.springframework.security.web.access.ExceptionTranslationFilter@176a8690, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e260614]
+2021-01-20 11:32:41,760 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 11:32:42,029 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 11:32:42,075 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 11:32:42,076 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 11:32:42,129 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 11:32:42,190 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 11:32:42,563 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 7.495 seconds (JVM running for 8.435)
+2021-01-20 11:43:17,445 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 11:43:17,446 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-20 11:43:17,467 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 20 ms
+2021-01-20 11:46:07,026 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 11:46:49,704 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-5] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:46:50,310 INFO org.mongodb.driver.connection [http-nio-8080-exec-5] Opened connection [connectionId{localValue:2, serverValue:77}] to localhost:27017
+2021-01-20 11:46:50,545 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Bad credentials
+2021-01-20 11:48:12,556 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-10] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:48:12,739 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Bad credentials
+2021-01-20 11:49:49,946 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-7] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:49:50,132 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Bad credentials
+2021-01-20 11:49:54,082 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-3] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:49:54,249 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Bad credentials
+2021-01-20 11:50:05,709 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-1] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:50:05,889 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Bad credentials
+2021-01-20 11:51:19,063 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Error: Role is not found.] with root cause
+java.lang.RuntimeException: Error: Role is not found.
+	at com.predecode.jwt.controller.AuthController.lambda$3(AuthController.java:110)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at com.predecode.jwt.controller.AuthController.lambda$2(AuthController.java:110)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at com.predecode.jwt.controller.AuthController.registerUser(AuthController.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.predecode.jwt.Auth.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 11:51:57,931 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Error: Role is not found.] with root cause
+java.lang.RuntimeException: Error: Role is not found.
+	at com.predecode.jwt.controller.AuthController.lambda$3(AuthController.java:110)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at com.predecode.jwt.controller.AuthController.lambda$2(AuthController.java:110)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at com.predecode.jwt.controller.AuthController.registerUser(AuthController.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.predecode.jwt.Auth.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 11:52:22,415 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Error: Role is not found.] with root cause
+java.lang.RuntimeException: Error: Role is not found.
+	at com.predecode.jwt.controller.AuthController.lambda$5(AuthController.java:122)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at com.predecode.jwt.controller.AuthController.lambda$2(AuthController.java:122)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at com.predecode.jwt.controller.AuthController.registerUser(AuthController.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.predecode.jwt.Auth.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 11:52:25,450 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Error: Role is not found.] with root cause
+java.lang.RuntimeException: Error: Role is not found.
+	at com.predecode.jwt.controller.AuthController.lambda$5(AuthController.java:122)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at com.predecode.jwt.controller.AuthController.lambda$2(AuthController.java:122)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at com.predecode.jwt.controller.AuthController.registerUser(AuthController.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.predecode.jwt.Auth.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 11:52:43,893 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Error: Role is not found.] with root cause
+java.lang.RuntimeException: Error: Role is not found.
+	at com.predecode.jwt.controller.AuthController.lambda$1(AuthController.java:103)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at com.predecode.jwt.controller.AuthController.registerUser(AuthController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at com.predecode.jwt.Auth.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 11:53:38,589 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-169] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 11:53:38,599 INFO org.mongodb.driver.connection [Thread-169] Closed connection [connectionId{localValue:2, serverValue:77}] to localhost:27017 because the pool has been closed.
+2021-01-20 11:53:38,803 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 11:53:38,873 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 15536 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 11:53:38,874 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 11:53:39,593 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 11:53:39,644 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50ms. Found 3 MongoDB repository interfaces.
+2021-01-20 11:53:39,762 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@52d17eb7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 11:53:39,763 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 11:53:39,964 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 11:53:39,965 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 11:53:39,966 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 11:53:39,967 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 11:53:39,995 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 11:53:39,995 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1115 ms
+2021-01-20 11:53:40,090 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 11:53:40,095 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6007cc6c580a162708697ebf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:84}] to localhost:27017
+2021-01-20 11:53:40,098 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6007cc6c580a162708697ebf', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=637100}
+2021-01-20 11:53:40,225 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 11:53:40,462 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 11:53:40,578 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23ad80ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@650f271f, org.springframework.security.web.header.HeaderWriterFilter@1c3ce729, org.springframework.web.filter.CorsFilter@22bc1be2, org.springframework.security.web.authentication.logout.LogoutFilter@41683e45, com.predecode.jwt.Auth.AuthTokenFilter@785ea0a5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7681d34e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d7f6718, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fd38bc9, org.springframework.security.web.session.SessionManagementFilter@4512bfdd, org.springframework.security.web.access.ExceptionTranslationFilter@19715d85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58d9ef6b]
+2021-01-20 11:53:40,613 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 11:53:40,686 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 11:53:40,711 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 11:53:40,712 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 11:53:40,714 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 11:53:40,723 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 11:53:40,799 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.988 seconds (JVM running for 1266.67)
+2021-01-20 11:53:40,802 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 11:53:52,383 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 9508 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 11:53:52,387 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 11:53:52,463 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-20 11:53:52,463 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-20 11:53:53,924 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 11:53:54,060 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 127ms. Found 3 MongoDB repository interfaces.
+2021-01-20 11:53:54,643 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@546ec0e1' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 11:53:54,651 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 11:53:55,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 11:53:55,560 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 11:53:55,562 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 11:53:55,563 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 11:53:55,757 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 11:53:55,757 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3293 ms
+2021-01-20 11:53:56,255 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 11:53:56,395 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6007cc7c90f10b2a921fa92b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:85}] to localhost:27017
+2021-01-20 11:53:56,403 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6007cc7c90f10b2a921fa92b', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5313700}
+2021-01-20 11:53:57,111 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 11:53:57,913 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 11:53:58,330 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37476d6e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ceea395, org.springframework.security.web.header.HeaderWriterFilter@2157c6d, org.springframework.web.filter.CorsFilter@424c3d97, org.springframework.security.web.authentication.logout.LogoutFilter@d43bbcb, com.predecode.jwt.Auth.AuthTokenFilter@75c37708, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47805fd7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67c9ea71, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fc92d7b, org.springframework.security.web.session.SessionManagementFilter@1f7ab2bf, org.springframework.security.web.access.ExceptionTranslationFilter@600f716a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e371e2]
+2021-01-20 11:53:58,470 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 11:53:58,722 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 11:53:58,770 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 11:53:58,772 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 11:53:58,827 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 11:53:58,891 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 11:53:59,243 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 7.604 seconds (JVM running for 8.334)
+2021-01-20 11:55:26,704 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 11:55:26,705 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-20 11:55:26,720 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 15 ms
+2021-01-20 11:55:27,282 INFO org.mongodb.driver.connection [http-nio-8080-exec-1] Opened connection [connectionId{localValue:2, serverValue:86}] to localhost:27017
+2021-01-20 11:56:14,413 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-2] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:56:15,849 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-2] signin executed for user sksingq@gmail.com
+2021-01-20 11:57:49,610 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-7] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:57:49,784 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-7] signin executed for user sksingq@gmail.com
+2021-01-20 11:59:08,022 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-5] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:59:08,202 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-5] signin executed for user sksingq@gmail.com
+2021-01-20 11:59:41,705 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-9] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 11:59:41,875 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-9] signin executed for user sksingq@gmail.com
+2021-01-20 12:00:12,891 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-169] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 12:00:12,897 INFO org.mongodb.driver.connection [Thread-169] Closed connection [connectionId{localValue:2, serverValue:86}] to localhost:27017 because the pool has been closed.
+2021-01-20 12:00:13,041 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 12:00:13,098 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 9508 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 12:00:13,099 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 12:00:13,575 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 12:00:13,608 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32ms. Found 3 MongoDB repository interfaces.
+2021-01-20 12:00:13,710 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@25f845b3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 12:00:13,711 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 12:00:13,837 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 12:00:13,838 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 12:00:13,838 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 12:00:13,839 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 12:00:13,863 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 12:00:13,863 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 760 ms
+2021-01-20 12:00:13,934 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 12:00:13,939 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6007cdf590f10b2a921fa92d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:87}] to localhost:27017
+2021-01-20 12:00:13,942 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6007cdf590f10b2a921fa92d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=989800}
+2021-01-20 12:00:14,029 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 12:00:14,206 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 12:00:14,266 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@797ad245, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b76076c, org.springframework.security.web.header.HeaderWriterFilter@4f37fb64, org.springframework.web.filter.CorsFilter@66d557, org.springframework.security.web.authentication.logout.LogoutFilter@7abc5f60, com.predecode.jwt.Auth.AuthTokenFilter@7077945f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e4fe78e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ed3d1f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2068c81, org.springframework.security.web.session.SessionManagementFilter@269937f5, org.springframework.security.web.access.ExceptionTranslationFilter@7394df0b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@274b8cf7]
+2021-01-20 12:00:14,293 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 12:00:14,359 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 12:00:14,364 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 12:00:14,366 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 12:00:14,367 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 12:00:14,373 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 12:00:14,433 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.386 seconds (JVM running for 383.524)
+2021-01-20 12:00:14,435 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 12:00:25,495 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 5100 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 12:00:25,497 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 12:00:25,556 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-20 12:00:25,556 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-20 12:00:26,666 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 12:00:26,757 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 84ms. Found 3 MongoDB repository interfaces.
+2021-01-20 12:00:27,228 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@63114920' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 12:00:27,233 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 12:00:27,919 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 12:00:27,934 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 12:00:27,935 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 12:00:27,936 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 12:00:28,057 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 12:00:28,057 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 2501 ms
+2021-01-20 12:00:28,395 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 12:00:28,493 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6007ce0436de200462ca7f2c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:88}] to localhost:27017
+2021-01-20 12:00:28,500 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6007ce0436de200462ca7f2c', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4262100}
+2021-01-20 12:00:29,072 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 12:00:29,696 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 12:00:30,032 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@712419d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e435a43, org.springframework.security.web.header.HeaderWriterFilter@674db0d5, org.springframework.web.filter.CorsFilter@1179e54c, org.springframework.security.web.authentication.logout.LogoutFilter@38576d1e, com.predecode.jwt.Auth.AuthTokenFilter@834b810, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5276ac6e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bb61f1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f4ecb69, org.springframework.security.web.session.SessionManagementFilter@d435aee, org.springframework.security.web.access.ExceptionTranslationFilter@68208ebb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@398a68c5]
+2021-01-20 12:00:30,137 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 12:00:30,352 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 12:00:30,387 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 12:00:30,389 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 12:00:30,441 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 12:00:30,488 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 12:00:30,820 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 5.844 seconds (JVM running for 6.379)
+2021-01-20 12:10:16,511 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 12:10:16,512 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-20 12:10:16,533 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 20 ms
+2021-01-20 12:10:16,641 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-1] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 12:10:17,270 INFO org.mongodb.driver.connection [http-nio-8080-exec-1] Opened connection [connectionId{localValue:2, serverValue:89}] to localhost:27017
+2021-01-20 12:10:18,533 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-1] signin executed for user sksingq@gmail.com
+2021-01-20 12:11:03,208 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-2] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 12:11:03,380 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-2] signin executed for user sksingq@gmail.com
+2021-01-20 12:11:45,396 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-3] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 12:11:45,565 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-3] signin executed for user sksingq@gmail.com
+2021-01-20 12:11:53,604 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-4] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 12:11:53,776 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-4] signin executed for user sksingq@gmail.com
+2021-01-20 12:12:06,789 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-6] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 12:12:06,968 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-6] signin executed for user sksingq@gmail.com
+2021-01-20 12:12:25,792 ERROR com.predecode.jwt.Auth.JwtUtils [http-nio-8080-exec-5] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2021-01-20 12:12:25,962 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-5] signin executed for user sksingq@gmail.com
+2021-01-20 12:14:07,438 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-8] signin executed for user sksingq@gmail.com
+2021-01-20 12:14:51,178 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-9] signin executed for user sksingq@gmail.com
+2021-01-20 12:22:13,315 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-1] signin executed for user sksingq@gmail.com
+2021-01-20 12:24:43,662 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-3] signin executed for user sksingq@gmail.com
+2021-01-20 12:27:13,860 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-6] signin executed for user sksingq@gmail.com
+2021-01-20 12:45:27,544 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-7] signin executed for user sksingq@gmail.com
+2021-01-20 12:49:17,198 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-10] signin executed for user sksingq@gmail.com
+2021-01-20 12:54:35,043 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Bad credentials
+2021-01-20 12:54:46,752 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-20 13:01:57,848 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Bad credentials
+2021-01-20 13:03:32,852 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Bad credentials
+2021-01-20 13:11:12,594 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Bad credentials
+2021-01-20 13:12:03,525 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Bad credentials
+2021-01-20 13:13:41,994 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Bad credentials
+2021-01-20 13:13:54,764 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Bad credentials
+2021-01-20 13:15:49,402 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Bad credentials
+2021-01-20 13:16:27,167 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Bad credentials
+2021-01-20 13:17:24,328 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Bad credentials
+2021-01-20 13:18:56,019 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Bad credentials
+2021-01-20 13:19:41,556 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Bad credentials
+2021-01-20 13:20:01,700 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Bad credentials
+2021-01-20 13:20:08,866 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Bad credentials
+2021-01-20 13:20:28,256 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-9] signin executed for user sksingq@gmail.com
+2021-01-20 13:28:44,357 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-1] signin executed for user sksingq@gmail.com
+2021-01-20 15:10:33,344 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-4] signin executed for user sksingq@gmail.com
+2021-01-20 15:11:26,444 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-7] signin executed for user sksingq@gmail.com
+2021-01-20 15:12:37,938 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-8] signin executed for user sksingq@gmail.com
+2021-01-20 15:59:23,825 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Bad credentials
+2021-01-20 16:39:30,395 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Bad credentials
+2021-01-20 16:42:44,408 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-9] signin executed for user amit.roy@gmail.com
+2021-01-20 16:44:50,781 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.HashSet<java.lang.Object>` out of VALUE_STRING token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.HashSet<java.lang.Object>` out of VALUE_STRING token
+ at [Source: (PushbackInputStream); line: 1, column: 72] (through reference chain: com.predecode.jwt.pojo.SignupRequest["role"])]
+2021-01-20 16:45:38,316 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.HashSet<java.lang.Object>` out of VALUE_STRING token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.HashSet<java.lang.Object>` out of VALUE_STRING token
+ at [Source: (PushbackInputStream); line: 1, column: 78] (through reference chain: com.predecode.jwt.pojo.SignupRequest["role"])]
+2021-01-20 17:15:08,961 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.HashSet<java.lang.Object>` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.HashSet<java.lang.Object>` out of START_OBJECT token
+ at [Source: (PushbackInputStream); line: 1, column: 78] (through reference chain: com.predecode.jwt.pojo.SignupRequest["role"])]
+2021-01-20 17:16:38,470 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.predecode.jwt.controller.AuthController.registerUser(com.predecode.jwt.pojo.SignupRequest): [Field error in object 'signupRequest' on field 'password': rejected value [12345]; codes [Size.signupRequest.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [signupRequest.password,password]; arguments []; default message [password],40,6]; default message [size must be between 6 and 40]] ]
+2021-01-20 17:47:41,779 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-1] signin executed for user sdlkfj@hfksdjhf
+2021-01-20 18:07:18,866 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-4] signin executed for user mukesh.raj1@gmail.com
+2021-01-20 18:07:58,101 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-6] signin executed for user sksingq@gmail.com
+2021-01-20 18:08:18,198 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-7] signin executed for user mukesh.raj@gmail.com
+2021-01-20 18:31:40,353 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-8] signin executed for user sksingq@gmail.com
+2021-01-20 18:33:24,539 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-10] signin executed for user sksingq@gmail.com
+2021-01-20 18:44:29,602 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-169] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:44:29,624 INFO org.mongodb.driver.connection [Thread-169] Closed connection [connectionId{localValue:2, serverValue:89}] to localhost:27017 because the pool has been closed.
+2021-01-20 18:44:30,204 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 18:44:30,281 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 5100 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 18:44:30,283 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 18:44:30,925 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 18:44:30,966 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 39ms. Found 3 MongoDB repository interfaces.
+2021-01-20 18:44:31,083 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2f5601e2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:44:31,085 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:44:31,310 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 18:44:31,312 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:44:31,312 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 18:44:31,313 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 18:44:31,337 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 18:44:31,338 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1049 ms
+2021-01-20 18:44:31,428 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 18:44:31,434 INFO org.mongodb.driver.connection [cluster-ClusterId{value='60082cb736de200462ca7f32', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:92}] to localhost:27017
+2021-01-20 18:44:31,437 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='60082cb736de200462ca7f32', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=466500}
+2021-01-20 18:44:31,565 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 18:44:31,766 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 18:44:31,882 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ec73b91, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c855be6, org.springframework.security.web.header.HeaderWriterFilter@206e2708, org.springframework.web.filter.CorsFilter@70eabd53, org.springframework.security.web.authentication.logout.LogoutFilter@27cf504b, com.predecode.jwt.Auth.AuthTokenFilter@76ebf313, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74b90309, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66144da8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7060a4ef, org.springframework.security.web.session.SessionManagementFilter@776154ae, org.springframework.security.web.access.ExceptionTranslationFilter@2219f8a9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ac45ec]
+2021-01-20 18:44:31,919 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:44:31,994 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:44:31,999 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 18:44:32,001 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 18:44:32,002 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 18:44:32,010 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 18:44:32,073 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.861 seconds (JVM running for 24247.648)
+2021-01-20 18:44:32,076 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 18:45:59,088 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-173] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:45:59,259 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 18:45:59,322 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 5100 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 18:45:59,323 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 18:45:59,855 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 18:45:59,887 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31ms. Found 3 MongoDB repository interfaces.
+2021-01-20 18:45:59,958 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@409cee75' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:45:59,959 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:46:00,084 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 18:46:00,085 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:46:00,086 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 18:46:00,086 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 18:46:00,108 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 18:46:00,109 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 778 ms
+2021-01-20 18:46:00,167 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 18:46:00,172 INFO org.mongodb.driver.connection [cluster-ClusterId{value='60082d1036de200462ca7f33', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:93}] to localhost:27017
+2021-01-20 18:46:00,175 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='60082d1036de200462ca7f33', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=499600}
+2021-01-20 18:46:00,254 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 18:46:00,405 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 18:46:00,476 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23821859, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f1d6481, org.springframework.security.web.header.HeaderWriterFilter@50880987, org.springframework.web.filter.CorsFilter@11c95c57, org.springframework.security.web.authentication.logout.LogoutFilter@6ba72887, com.predecode.jwt.Auth.AuthTokenFilter@7168fa85, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c7c2bb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c28d181, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fa0d8e9, org.springframework.security.web.session.SessionManagementFilter@b991510, org.springframework.security.web.access.ExceptionTranslationFilter@687768a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4503158b]
+2021-01-20 18:46:00,500 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:46:00,555 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:46:00,560 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 18:46:00,561 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 18:46:00,562 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 18:46:00,569 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 18:46:00,617 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.351 seconds (JVM running for 24336.192)
+2021-01-20 18:46:00,619 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 18:46:38,281 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-342] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:46:38,507 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 18:46:38,556 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 5100 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 18:46:38,556 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 18:46:39,023 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 18:46:39,055 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31ms. Found 3 MongoDB repository interfaces.
+2021-01-20 18:46:39,122 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@e3276bf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:46:39,123 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:46:39,243 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 18:46:39,245 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:46:39,245 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 18:46:39,245 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 18:46:39,267 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 18:46:39,268 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 708 ms
+2021-01-20 18:46:39,329 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 18:46:39,334 INFO org.mongodb.driver.connection [cluster-ClusterId{value='60082d3736de200462ca7f34', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:94}] to localhost:27017
+2021-01-20 18:46:39,337 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='60082d3736de200462ca7f34', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=444500}
+2021-01-20 18:46:39,410 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 18:46:39,550 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 18:46:39,611 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f6a65ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@63a006fa, org.springframework.security.web.header.HeaderWriterFilter@bf192ab, org.springframework.web.filter.CorsFilter@75807c46, org.springframework.security.web.authentication.logout.LogoutFilter@3a26184f, com.predecode.jwt.Auth.AuthTokenFilter@4a752515, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30c30693, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37a0beea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eaf26a7, org.springframework.security.web.session.SessionManagementFilter@56d7e21, org.springframework.security.web.access.ExceptionTranslationFilter@5e11a431, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a8eb71f]
+2021-01-20 18:46:39,636 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:46:39,696 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:46:39,700 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 18:46:39,701 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 18:46:39,703 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 18:46:39,708 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 18:46:39,755 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.241 seconds (JVM running for 24375.33)
+2021-01-20 18:46:39,757 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 18:53:44,434 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-511] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:53:44,618 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 18:53:44,669 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 5100 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 18:53:44,669 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 18:53:45,156 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 18:53:45,191 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33ms. Found 3 MongoDB repository interfaces.
+2021-01-20 18:53:45,258 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7d8b5c26' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:53:45,258 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:53:45,388 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 18:53:45,389 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:53:45,389 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 18:53:45,389 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 18:53:45,416 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 18:53:45,417 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 745 ms
+2021-01-20 18:53:45,482 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 18:53:45,489 INFO org.mongodb.driver.connection [cluster-ClusterId{value='60082ee136de200462ca7f35', description='null'}-localhost:27017] Opened connection [connectionId{localValue:6, serverValue:95}] to localhost:27017
+2021-01-20 18:53:45,492 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='60082ee136de200462ca7f35', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=432500}
+2021-01-20 18:53:45,558 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 18:53:45,689 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 18:53:45,757 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@238b70d4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f62ae95, org.springframework.security.web.header.HeaderWriterFilter@285fa0ad, org.springframework.web.filter.CorsFilter@1e8ffda5, org.springframework.security.web.authentication.logout.LogoutFilter@6d759869, com.predecode.jwt.Auth.AuthTokenFilter@4238a1e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5adde533, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fd26c0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67070f81, org.springframework.security.web.session.SessionManagementFilter@77b5ecda, org.springframework.security.web.access.ExceptionTranslationFilter@36e8744e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c40152e]
+2021-01-20 18:53:45,786 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:53:45,840 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:53:45,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 18:53:45,845 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 18:53:45,846 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 18:53:45,851 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 18:53:45,894 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.27 seconds (JVM running for 24801.469)
+2021-01-20 18:53:45,896 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 18:56:05,381 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-680] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:56:05,537 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 18:56:05,612 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 5100 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 18:56:05,613 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 18:56:06,167 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 18:56:06,203 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35ms. Found 3 MongoDB repository interfaces.
+2021-01-20 18:56:06,262 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1091448e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:56:06,263 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:56:06,376 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 18:56:06,377 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:56:06,378 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 18:56:06,378 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 18:56:06,401 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 18:56:06,402 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 785 ms
+2021-01-20 18:56:06,459 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 18:56:06,463 INFO org.mongodb.driver.connection [cluster-ClusterId{value='60082f6e36de200462ca7f36', description='null'}-localhost:27017] Opened connection [connectionId{localValue:7, serverValue:96}] to localhost:27017
+2021-01-20 18:56:06,466 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='60082f6e36de200462ca7f36', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=469800}
+2021-01-20 18:56:06,536 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 18:56:06,685 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 18:56:06,750 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2feb44be, org.springframework.security.web.context.SecurityContextPersistenceFilter@4312f73a, org.springframework.security.web.header.HeaderWriterFilter@3b5e2d7a, org.springframework.web.filter.CorsFilter@2833013c, org.springframework.security.web.authentication.logout.LogoutFilter@187bb8a9, com.predecode.jwt.Auth.AuthTokenFilter@b22cb4d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bffa19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e403209, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5785c912, org.springframework.security.web.session.SessionManagementFilter@1d03e8b5, org.springframework.security.web.access.ExceptionTranslationFilter@7b179fae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@751afacc]
+2021-01-20 18:56:06,773 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:56:06,814 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:56:06,818 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 18:56:06,819 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 18:56:06,820 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 18:56:06,826 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 18:56:06,845 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 18:56:06,870 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.324 seconds (JVM running for 24942.445)
+2021-01-20 18:56:06,872 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 18:56:52,520 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 18:56:52,521 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-20 18:56:52,526 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2021-01-20 18:56:52,601 INFO org.mongodb.driver.connection [http-nio-8080-exec-2] Opened connection [connectionId{localValue:8, serverValue:97}] to localhost:27017
+2021-01-20 18:57:59,481 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 11128 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 18:57:59,483 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 18:57:59,617 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-20 18:57:59,617 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-20 18:58:00,952 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 18:58:01,080 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 119ms. Found 3 MongoDB repository interfaces.
+2021-01-20 18:58:01,748 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@213df38e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:58:01,757 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:58:02,642 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 18:58:02,661 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:58:02,662 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 18:58:02,663 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 18:58:02,797 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 18:58:02,797 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 3179 ms
+2021-01-20 18:58:03,212 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 18:58:03,346 INFO org.mongodb.driver.connection [cluster-ClusterId{value='60082fe3d58e2d37a4edc4c8', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:98}] to localhost:27017
+2021-01-20 18:58:03,358 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='60082fe3d58e2d37a4edc4c8', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=7083400}
+2021-01-20 18:58:04,039 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 18:58:04,788 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 18:58:05,199 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3560f8bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@271a4fec, org.springframework.security.web.header.HeaderWriterFilter@6d6cba6, org.springframework.web.filter.CorsFilter@41c4575b, org.springframework.security.web.authentication.logout.LogoutFilter@7d332271, com.predecode.jwt.Auth.AuthTokenFilter@2dbf3a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30c203cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@739eafa3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@538f3e7, org.springframework.security.web.session.SessionManagementFilter@2b65796c, org.springframework.security.web.access.ExceptionTranslationFilter@6ea45cf3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3751b543]
+2021-01-20 18:58:05,369 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:58:25,202 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 18:58:25,206 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 18:58:25,398 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-20 18:58:25,399 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-20 18:58:27,407 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 18:58:27,569 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 149ms. Found 3 MongoDB repository interfaces.
+2021-01-20 18:58:28,349 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@36fc1267' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:58:28,358 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 18:58:29,387 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 18:58:29,415 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:58:29,416 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 18:58:29,418 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 18:58:29,593 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 18:58:29,594 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 4194 ms
+2021-01-20 18:58:30,035 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 18:58:30,161 INFO org.mongodb.driver.connection [cluster-ClusterId{value='60082ffe98db755bff04b8d3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:99}] to localhost:27017
+2021-01-20 18:58:30,171 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='60082ffe98db755bff04b8d3', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6492900}
+2021-01-20 18:58:30,897 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 18:58:31,596 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 18:58:31,957 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cb5ef2a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c1d6f8a, org.springframework.security.web.header.HeaderWriterFilter@15f294d5, org.springframework.web.filter.CorsFilter@4fa61e31, org.springframework.security.web.authentication.logout.LogoutFilter@201a9053, com.predecode.jwt.Auth.AuthTokenFilter@1586ca44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21fcf69e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ed666a2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d18098b, org.springframework.security.web.session.SessionManagementFilter@60cacb3f, org.springframework.security.web.access.ExceptionTranslationFilter@325d0e6a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36513031]
+2021-01-20 18:58:32,057 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 18:58:32,276 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 18:58:32,335 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 18:58:32,338 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 18:58:32,386 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 18:58:32,445 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 18:58:32,650 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 18:58:32,790 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 8.935 seconds (JVM running for 10.67)
+2021-01-20 18:59:08,986 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 18:59:08,987 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-01-20 18:59:09,011 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 23 ms
+2021-01-20 18:59:10,307 INFO org.mongodb.driver.connection [http-nio-8080-exec-2] Opened connection [connectionId{localValue:2, serverValue:100}] to localhost:27017
+2021-01-20 19:10:35,429 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-169] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:10:35,441 INFO org.mongodb.driver.connection [Thread-169] Closed connection [connectionId{localValue:2, serverValue:100}] to localhost:27017 because the pool has been closed.
+2021-01-20 19:10:35,629 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 19:10:35,719 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 19:10:35,720 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 19:10:36,645 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 19:10:36,688 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 42ms. Found 3 MongoDB repository interfaces.
+2021-01-20 19:10:36,842 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@56e35ef2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:10:36,846 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:10:37,021 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 19:10:37,022 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:10:37,022 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 19:10:37,023 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 19:10:37,057 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 19:10:37,057 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1330 ms
+2021-01-20 19:10:37,176 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 19:10:37,182 INFO org.mongodb.driver.connection [cluster-ClusterId{value='600832d598db755bff04b8d4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:101}] to localhost:27017
+2021-01-20 19:10:37,186 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='600832d598db755bff04b8d4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=781100}
+2021-01-20 19:10:37,308 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 19:10:37,550 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 19:10:37,634 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a49fef1, org.springframework.security.web.context.SecurityContextPersistenceFilter@7843348c, org.springframework.security.web.header.HeaderWriterFilter@741bceb9, org.springframework.web.filter.CorsFilter@2084181, org.springframework.security.web.authentication.logout.LogoutFilter@59e83d94, com.predecode.jwt.Auth.AuthTokenFilter@60472bc0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ce62bb4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56224c97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41240870, org.springframework.security.web.session.SessionManagementFilter@68d15ff, org.springframework.security.web.access.ExceptionTranslationFilter@696db981, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c3893d4]
+2021-01-20 19:10:37,664 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:10:37,724 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:10:37,732 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 19:10:37,734 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 19:10:37,735 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 19:10:37,749 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 19:10:37,780 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 19:10:37,841 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 2.204 seconds (JVM running for 735.721)
+2021-01-20 19:10:37,848 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 19:10:59,617 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 19:10:59,618 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-20 19:10:59,626 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2021-01-20 19:10:59,642 INFO org.mongodb.driver.connection [http-nio-8080-exec-1] Opened connection [connectionId{localValue:4, serverValue:102}] to localhost:27017
+2021-01-20 19:12:18,415 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-173] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:18,421 INFO org.mongodb.driver.connection [Thread-173] Closed connection [connectionId{localValue:4, serverValue:102}] to localhost:27017 because the pool has been closed.
+2021-01-20 19:12:18,626 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 19:12:18,708 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 19:12:18,708 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 19:12:19,622 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 19:12:19,664 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 40ms. Found 3 MongoDB repository interfaces.
+2021-01-20 19:12:19,772 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6c33a6c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:19,775 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:19,977 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 19:12:19,978 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:19,980 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 19:12:19,980 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 19:12:20,004 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 19:12:20,005 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1288 ms
+2021-01-20 19:12:20,091 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 19:12:20,096 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6008333c98db755bff04b8d5', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:103}] to localhost:27017
+2021-01-20 19:12:20,101 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6008333c98db755bff04b8d5', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1140600}
+2021-01-20 19:12:20,234 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 19:12:20,458 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 19:12:20,532 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@557f001a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2699be46, org.springframework.security.web.header.HeaderWriterFilter@4d7f2a24, org.springframework.web.filter.CorsFilter@6d0e8afe, org.springframework.security.web.authentication.logout.LogoutFilter@4a7c6dca, com.predecode.jwt.Auth.AuthTokenFilter@77abdbdb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31f4d052, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5eef242, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ba3e6db, org.springframework.security.web.session.SessionManagementFilter@1476181a, org.springframework.security.web.access.ExceptionTranslationFilter@5238b847, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8debd6a]
+2021-01-20 19:12:20,564 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:20,622 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:20,628 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 19:12:20,630 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 19:12:20,632 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 19:12:20,644 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 19:12:20,669 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 19:12:20,722 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 2.087 seconds (JVM running for 838.602)
+2021-01-20 19:12:20,725 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 19:12:25,436 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-342] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:25,688 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 19:12:25,759 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 19:12:25,759 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 19:12:26,415 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 19:12:26,451 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34ms. Found 3 MongoDB repository interfaces.
+2021-01-20 19:12:26,548 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@27880bda' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:26,551 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:26,710 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 19:12:26,712 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:26,713 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 19:12:26,714 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 19:12:26,760 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 19:12:26,761 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 995 ms
+2021-01-20 19:12:26,860 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 19:12:26,868 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6008334298db755bff04b8d6', description='null'}-localhost:27017] Opened connection [connectionId{localValue:6, serverValue:104}] to localhost:27017
+2021-01-20 19:12:26,871 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6008334298db755bff04b8d6', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1064500}
+2021-01-20 19:12:26,998 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 19:12:27,268 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 19:12:27,378 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@630c76f0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d0e7110, org.springframework.security.web.header.HeaderWriterFilter@6e95798b, org.springframework.web.filter.CorsFilter@3db6cdba, org.springframework.security.web.authentication.logout.LogoutFilter@c44830, com.predecode.jwt.Auth.AuthTokenFilter@7c0e2a5d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4dd59dd4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@849ecc4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bf7d11d, org.springframework.security.web.session.SessionManagementFilter@9d3fa05, org.springframework.security.web.access.ExceptionTranslationFilter@67e8e27f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e9cd812]
+2021-01-20 19:12:27,409 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:27,461 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:27,472 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 19:12:27,473 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 19:12:27,476 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 19:12:27,495 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 19:12:27,530 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 19:12:27,588 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.89 seconds (JVM running for 845.467)
+2021-01-20 19:12:27,591 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 19:12:31,237 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-511] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:31,442 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 19:12:31,534 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 19:12:31,535 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 19:12:32,299 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 19:12:32,354 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54ms. Found 3 MongoDB repository interfaces.
+2021-01-20 19:12:32,463 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@407bb7ca' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:32,466 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:32,608 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 19:12:32,609 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:32,610 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 19:12:32,610 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 19:12:32,657 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 19:12:32,658 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1116 ms
+2021-01-20 19:12:32,753 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 19:12:32,759 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6008334898db755bff04b8d7', description='null'}-localhost:27017] Opened connection [connectionId{localValue:7, serverValue:105}] to localhost:27017
+2021-01-20 19:12:32,764 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6008334898db755bff04b8d7', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1647600}
+2021-01-20 19:12:32,864 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 19:12:33,059 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 19:12:33,139 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43b3447c, org.springframework.security.web.context.SecurityContextPersistenceFilter@716b6e48, org.springframework.security.web.header.HeaderWriterFilter@3503e80e, org.springframework.web.filter.CorsFilter@36f3b5b8, org.springframework.security.web.authentication.logout.LogoutFilter@3464bdc7, com.predecode.jwt.Auth.AuthTokenFilter@6d05098c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fe9a326, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5580774d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1830886a, org.springframework.security.web.session.SessionManagementFilter@175b98fe, org.springframework.security.web.access.ExceptionTranslationFilter@2ff42f0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@eb4bf]
+2021-01-20 19:12:33,165 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:33,215 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:33,223 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 19:12:33,224 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 19:12:33,227 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 19:12:33,238 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 19:12:33,267 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 19:12:33,309 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.855 seconds (JVM running for 851.188)
+2021-01-20 19:12:33,312 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 19:12:40,041 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-680] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:40,199 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 19:12:40,267 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 19:12:40,268 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 19:12:40,873 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 19:12:40,905 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 31ms. Found 3 MongoDB repository interfaces.
+2021-01-20 19:12:41,013 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1d28a37f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:41,016 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:12:41,193 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 19:12:41,194 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:41,195 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 19:12:41,196 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 19:12:41,239 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 19:12:41,241 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 965 ms
+2021-01-20 19:12:41,430 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 19:12:41,441 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6008335198db755bff04b8d8', description='null'}-localhost:27017] Opened connection [connectionId{localValue:8, serverValue:106}] to localhost:27017
+2021-01-20 19:12:41,446 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6008335198db755bff04b8d8', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1026400}
+2021-01-20 19:12:41,575 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 19:12:41,777 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 19:12:41,863 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b7ef0a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@36cc112d, org.springframework.security.web.header.HeaderWriterFilter@6f81ad9d, org.springframework.web.filter.CorsFilter@3415f9d8, org.springframework.security.web.authentication.logout.LogoutFilter@76e35f62, com.predecode.jwt.Auth.AuthTokenFilter@7a280dc1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64c4bae0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cb1ea0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56e5417a, org.springframework.security.web.session.SessionManagementFilter@60f8cca5, org.springframework.security.web.access.ExceptionTranslationFilter@5d21ff73, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b345208]
+2021-01-20 19:12:41,891 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:12:41,943 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:12:41,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 19:12:41,975 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 19:12:41,986 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 19:12:42,009 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 19:12:42,050 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 19:12:42,107 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.899 seconds (JVM running for 859.986)
+2021-01-20 19:12:42,109 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 19:13:27,894 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-849] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:13:28,126 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 19:13:28,196 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 19:13:28,196 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 19:13:28,768 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 19:13:28,801 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 32ms. Found 3 MongoDB repository interfaces.
+2021-01-20 19:13:28,903 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5de672e6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:13:28,905 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:13:29,046 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 19:13:29,047 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:13:29,048 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 19:13:29,049 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 19:13:29,075 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 19:13:29,075 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 872 ms
+2021-01-20 19:13:29,144 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 19:13:29,149 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6008338198db755bff04b8d9', description='null'}-localhost:27017] Opened connection [connectionId{localValue:9, serverValue:107}] to localhost:27017
+2021-01-20 19:13:29,153 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6008338198db755bff04b8d9', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=990700}
+2021-01-20 19:13:29,275 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 19:13:29,454 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 19:13:29,527 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23e5c053, org.springframework.security.web.context.SecurityContextPersistenceFilter@6bcdbd4f, org.springframework.security.web.header.HeaderWriterFilter@5525e705, org.springframework.web.filter.CorsFilter@4a59ab9e, org.springframework.security.web.authentication.logout.LogoutFilter@21562a9b, com.predecode.jwt.Auth.AuthTokenFilter@779929a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30f39ca0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a944874, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35f06cd0, org.springframework.security.web.session.SessionManagementFilter@4b94d34a, org.springframework.security.web.access.ExceptionTranslationFilter@26efa14f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32137cfb]
+2021-01-20 19:13:29,559 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:13:29,621 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:13:29,628 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 19:13:29,629 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 19:13:29,631 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 19:13:29,645 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 19:13:29,680 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 19:13:29,722 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.585 seconds (JVM running for 907.601)
+2021-01-20 19:13:29,726 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 19:13:37,503 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-1018] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:13:37,692 INFO com.predecode.jwt.JwtApplication [restartedMain] Application Start....
+2021-01-20 19:13:37,761 INFO com.predecode.jwt.JwtApplication [restartedMain] Starting JwtApplication on LAPTOP-BMFPGF2C with PID 29520 (C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt\target\classes started by sumit in C:\Users\sumit\Music\Login-Signup-MongoDB-Java-logger-Swagger-master\jwt)
+2021-01-20 19:13:37,761 INFO com.predecode.jwt.JwtApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-01-20 19:13:38,315 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-01-20 19:13:38,343 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 27ms. Found 3 MongoDB repository interfaces.
+2021-01-20 19:13:38,412 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@26ccb8c8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:13:38,414 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-20 19:13:38,547 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-01-20 19:13:38,549 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:13:38,550 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-01-20 19:13:38,550 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-01-20 19:13:38,572 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 19:13:38,572 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 805 ms
+2021-01-20 19:13:38,637 INFO org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-01-20 19:13:38,643 INFO org.mongodb.driver.connection [cluster-ClusterId{value='6008338a98db755bff04b8da', description='null'}-localhost:27017] Opened connection [connectionId{localValue:10, serverValue:108}] to localhost:27017
+2021-01-20 19:13:38,647 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='6008338a98db755bff04b8da', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1149600}
+2021-01-20 19:13:38,754 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 19:13:38,939 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 19:13:38,996 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56f8c4b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@575349f9, org.springframework.security.web.header.HeaderWriterFilter@79253ba8, org.springframework.web.filter.CorsFilter@7f7b56a7, org.springframework.security.web.authentication.logout.LogoutFilter@4f0be9c3, com.predecode.jwt.Auth.AuthTokenFilter@521ca52b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58ebcd12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8c345dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64ec4042, org.springframework.security.web.session.SessionManagementFilter@72cf0b97, org.springframework.security.web.access.ExceptionTranslationFilter@787ef938, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bd7432c]
+2021-01-20 19:13:39,022 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 19:13:39,077 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-20 19:13:39,085 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-20 19:13:39,087 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 19:13:39,089 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 19:13:39,099 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 19:13:39,117 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: registerUserUsingPOST_1
+2021-01-20 19:13:39,161 INFO com.predecode.jwt.JwtApplication [restartedMain] Started JwtApplication in 1.46 seconds (JVM running for 917.04)
+2021-01-20 19:13:39,163 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-01-20 19:14:17,589 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 19:14:17,590 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-20 19:14:17,595 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2021-01-20 19:14:17,608 INFO org.mongodb.driver.connection [http-nio-8080-exec-1] Opened connection [connectionId{localValue:11, serverValue:109}] to localhost:27017
+2021-01-20 19:15:15,128 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-4] signin executed for user sksingq@gmail.com
+2021-01-20 19:15:27,253 ERROR com.predecode.jwt.Auth.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Bad credentials
+2021-01-20 19:16:27,962 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-8] signin executed for user sksingq@gmail.com
+2021-01-20 20:06:16,266 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-10] signin executed for user sksingq@gmail.com
+2021-01-20 20:07:06,691 INFO com.predecode.jwt.controller.AuthController [http-nio-8080-exec-5] signin executed for user sksingq@gmail.com
